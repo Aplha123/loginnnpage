@@ -34,7 +34,7 @@ app.post("/",function(req,res){
      const url = "https://us13.api.mailchimp.com/3.0/lists/a25c87e787"
      const options = { 
         method: "POST",
-        auth: "chetanya123:c5ce228150e92acd63eb113c1e4dd4b4-us13"
+        auth: "chetanya123:fa88a1a5422ee4785db3e0a7be747a5d-us13"
      }
 
     const request= https.request(url,options,function(response){
@@ -73,6 +73,9 @@ app.post("/",function(req,res){
 app.listen(process.env.PORT || 3000,function(){
     console.log("server is running at port 3000" )
 })
+// fa88a1a5422ee4785db3e0a7be747a5d-us13
+
+// 281951bc102875f9ad06270e04d32d41-us13
 
 // c5ce228150e92acd63eb113c1e4dd4b4-us13
 
